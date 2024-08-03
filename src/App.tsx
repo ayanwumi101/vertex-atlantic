@@ -8,7 +8,7 @@ import Projects from './components/Projects/Projects'
 import Contact from './components/Contact/Contact'
 import Clients from './components/Clients/Clients'
 import { useLayoutEffect, useEffect } from 'react'
-import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy } from 'react-scroll';
+import { Events, scrollSpy } from 'react-scroll';
 
 function App() {
   useLayoutEffect(() => {
