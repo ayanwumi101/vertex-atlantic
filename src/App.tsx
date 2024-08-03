@@ -15,6 +15,7 @@ function App() {
     (
       async () => {
         const LocomotiveScroll = (await import('locomotive-scroll')).default;
+         /* eslint-disable-next-line padded-blocks */
         const locomotiveScroll = new LocomotiveScroll();
       }
     )()
