@@ -21,9 +21,9 @@ const Clients = () => {
     '/assets/client5.jpeg',
   ]
   return (
-    <Box py='12'>
+    <Box py='12' id='clients'>
       <Box mb='12'>
-        <Heading fontSize={55} textAlign='center'>Our Clients</Heading>
+        <Heading fontSize={[35,55]} textAlign='center'>Our Clients</Heading>
       </Box>
       <Box>
         <Ticker duration={25}>

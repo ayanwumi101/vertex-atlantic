@@ -22,12 +22,13 @@ const SingleHeroCard = ({title, description, image}: {image: string, description
                 display='flex'
                 alignItems='center'
                 justifyContent='center'
+                px={[2,0]}
             >
                 <Box 
                     textAlign='center'
                     color='white'
                 >
-                    <Heading fontSize={55}>{title}</Heading>
+                    <Heading fontSize={[35,55]} mb='2'>{title}</Heading>
                     <Text fontSize={25}>{description}</Text>
                 </Box>
             </Box>
@@ -58,8 +59,8 @@ const Hero = () => {
         >
             <SwiperSlide>
                 <SingleHeroCard 
-                      title='Welcome to Rejoice Spaces'
-                      description='Modern co-working space'
+                      title='Build Your Dreams With Us'
+                      description='Modern construction and architecture company'
                       image='/assets/hero-image1.jpg'
                 />
             </SwiperSlide>
@@ -73,8 +74,15 @@ const Hero = () => {
             <SwiperSlide>
                 <SingleHeroCard 
                       title='Ready to Level up?'
-                      description='Rejoice Spaces'
+                      description='Build with vertex atlantic architects'
                       image='/assets/hero-image3.jpg'
+                />
+            </SwiperSlide>
+            <SwiperSlide>
+                <SingleHeroCard 
+                      title='Ready to Level up?'
+                      description='Build with vertex atlantic architects'
+                      image='/assets/hero-image4.jpg'
                 />
             </SwiperSlide>
         </Swiper>

@@ -1,15 +1,14 @@
 import { Box, Flex, Heading, Text, Stack, Image } from '@chakra-ui/react'
-import React from 'react'
 
 
 const About = () => {
   return (
-    <Box w='100%' py='8' px='10'>
+    <Box w='100%' py='10' px={[5,'10']} bg='gray.100' id='about'>
       <Box mt='3' mb='6'>
-        <Heading textAlign='center' fontSize={55}>About Us</Heading>
+        <Heading textAlign='center' fontSize={[35,55]}>About Us</Heading>
       </Box>
       <Flex alignItems='center' gap='40px' flexWrap={['wrap', 'nowrap']}>
-        <Box w='50%'>
+        <Box w={['100%','50%']}>
           <Stack spacing={3}>
             <Text lineHeight='30px' textAlign='justify'>
               Vertex Atlantic Architects Ltd. is a registered company that was incorporated in 2009 under the laws of the Federal Republic of Nigeria with the Corporate Affairs Commission.
@@ -20,7 +19,7 @@ const About = () => {
             </Text>
           </Stack>
         </Box>
-        <Box w='50%'>
+        <Box w={['100%','50%']}>
           <Image src='/assets/hero-image2.jpg' boxShadow='xl' borderRadius='24' />
         </Box>
       </Flex>

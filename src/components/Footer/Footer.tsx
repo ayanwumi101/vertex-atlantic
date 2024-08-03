@@ -1,17 +1,28 @@
 import { Box, Flex, Image, Heading, Text, Stack } from '@chakra-ui/react'
 import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa'
 import { FaXTwitter } from 'react-icons/fa6'
+import { Link } from 'react-scroll'
 
 
 
 const Footer = () => {
   return (
-    <Box as='footer' w='100%' py='6' bg='blue.900'>
+    <Box>
+    <Box as='footer' w='100%' py='6' bg='blue.700'>
       <Box w='95%' mx='auto'>
+        <Link
+          activeClass="active"
+          to="home"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+        >
         <Box mb='3'>
           <Image mb='1' src='/assets/logo.png' w='200px' h='100px' objectFit='contain' />
         </Box>
-        <Flex justifyContent='space-between'>
+        </Link>
+        <Flex justifyContent={['center','space-between']} mb='5' flexWrap='wrap' rowGap={[12,0]}>
             <Box w='350px'>
               <Box color='gray.200'>
                 <Heading mb='2' fontSize={18}>About Us</Heading>
@@ -48,6 +59,10 @@ const Footer = () => {
             </Box>
         </Flex>
       </Box>
+    </Box>
+    <Box color='gray.300' bg='blue.900' textAlign='center' fontSize={14} py='5'>
+      <Text>Copyright &copy; {new Date().getFullYear()} Vertex Atlantic Arcitects. All rights reserved</Text>
+    </Box>
     </Box>
   )
 }

@@ -1,4 +1,4 @@
-import { Box, Heading, Image } from '@chakra-ui/react'
+import { Box, Heading, Image, useMediaQuery } from '@chakra-ui/react'
 import { Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -23,10 +23,11 @@ const Projects = () => {
     '/assets/project6.jpeg',
     '/assets/project7.jpg',
   ]
+  const [isMobile] = useMediaQuery('(max-width: 762px)')
   return (
-    <Box py='10'>
+    <Box py='10' id='projects'>
       <Box mb='12'>
-        <Heading fontSize={55} textAlign='center'>Projects</Heading>
+        <Heading fontSize={[35,55]} textAlign='center'>Projects</Heading>
       </Box>
 
       <Box as='section' w='95%' mx='auto'>
@@ -34,7 +35,7 @@ const Projects = () => {
             pagination={{ clickable: true }}
             modules={[Autoplay]}
             className="mySwiper"
-            slidesPerView={3.5}
+            slidesPerView={isMobile ? 1.2 : 3.5}
             autoplay={{
                 delay: 4000,
                 disableOnInteraction: false,

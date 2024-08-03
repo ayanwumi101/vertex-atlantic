@@ -9,10 +9,10 @@ import { TbReportAnalytics } from 'react-icons/tb'
 
 const Services = () => {
   return (
-    <Box py='10' px='8'>
+    <Box py='12' px='8' bg='gray.50' id='services'>
       <Box mb='10'>
-        <Flex justifyContent='space-between'>
-          <Heading fontSize={55} textAlign='center' fontWeight={500}>Services we offer</Heading>
+        <Flex justifyContent={['center','space-between']} flexWrap='wrap'>
+          <Heading fontSize={[35,55]} textAlign='center' fontWeight={700} mb={[5,0]}>Services we offer</Heading>
           <Box maxW='500px'>
             <Text>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut dicta inventore doloribus, aliquid eveniet maiores sint debitis nemo neque sed enim similique esse possimus asperiores, unde molestiae vero explicabo! Error.
@@ -22,7 +22,7 @@ const Services = () => {
       </Box>
 
       <Box>
-        <Flex justifyContent='space-between' flexWrap='wrap' rowGap='24px'>
+        <Flex justifyContent={['center','space-between']} flexWrap='wrap' rowGap='24px'>
           <ServiceCard  
             title='Construction Services'
             description='lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.'
