@@ -49,7 +49,7 @@ const Sidenav = ({ setOpenSideNav }: {setOpenSideNav: (value: boolean) => void})
                 <Button bg='none' p='0' mb='10' _hover={{ bg: 'none', p: 0 }} onClick={() => setOpenSideNav(false)}><MdClose color='white' size={35} /></Button>
                 <Flex flexDir='column' color='white'>
                     <VStack color='white' spacing='25px'>
-                        {links.map((link, index) => (
+                        {links.map((link) => (
                             <Link
                                 activeClass="active"
                                 to={link.link}

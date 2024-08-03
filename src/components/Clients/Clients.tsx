@@ -1,6 +1,5 @@
 import { Box, Image, Heading } from '@chakra-ui/react'
 import Ticker from 'framer-motion-ticker'
-import React from 'react'
 
 
 
