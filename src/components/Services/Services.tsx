@@ -14,60 +14,59 @@ const Services = () => {
         <Flex justifyContent={['center','space-between']} flexWrap='wrap'>
           <Heading fontSize={[35,55]} textAlign='center' fontWeight={700} mb={[5,0]}>Services we offer</Heading>
           <Box maxW='500px'>
-            <Text>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut dicta inventore doloribus, aliquid eveniet maiores sint debitis nemo neque sed enim similique esse possimus asperiores, unde molestiae vero explicabo! Error.
+            <Text textAlign='justify'>
+              We offer comprehensive construction, architecture, renovation, interior design, project management, and consultation services. Our dedicated team ensures exceptional quality, innovative design, and seamless project execution, transforming your visions into reality with professionalism and precision.
             </Text>
           </Box>
         </Flex>
       </Box>
-
       <Box>
         <Flex justifyContent={['center','space-between']} flexWrap='wrap' rowGap='24px'>
           <ServiceCard  
             title='Construction Services'
-            description='lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.'
+            description='Comprehensive construction solutions, from planning to execution, ensuring timely and quality delivery of projects.'
             image='/assets/hero-image3.jpg'
             icon={LuConstruction}
           />
           <ServiceCard  
             title='Project Management Consultancy'
-            description='lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.'
+            description='Expert guidance and management of projects to ensure efficient and successful completion.'
             image='/assets/service9.jpg'
             icon={GrUserManager}
           />
           <ServiceCard  
             title='Preparation of feasibility studies'
-            description='lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.'
+            description='Detailed feasibility studies to assess project viability, risks, and potential outcomes.'
             image='/assets/service7.jpg'
             icon={TbReportAnalytics}
           />
           <ServiceCard  
             title='Landscape design'
-            description='lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.'
+            description="Creating functional and aesthetically pleasing outdoor spaces that enhance your property's value."
             image='/assets/service1.jpg'
             icon={MdConstruction}
           />
           <ServiceCard  
-            title=' Real Estate & Residential development'
-            description='lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.'
+            title='Real Estate & Residential development'
+            description="Development services for residential and real estate projects, delivering innovative and sustainable solutions."
             image='/assets/service2.jpg'
             icon={MdRealEstateAgent}
           />
           <ServiceCard  
             title='Physical planning'
-            description='lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.'
+            description='Strategic planning to optimize land use and development, ensuring orderly and sustainable growth.'
             image='/assets/service10.jpg'
             icon={LuConstruction}
           />
           <ServiceCard  
             title='Architectural Design'
-            description='lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.'
+            description='Innovative architectural solutions tailored to your specific needs and preferences.'
             image='/assets/service5.jpg'
             icon={MdArchitecture}
           />
           <ServiceCard  
             title='Interior Design'
-            description='lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.'
+            description='Transforming interiors with stylish and functional designs that reflect your unique taste.'
             image='/assets/service11.jpg'
             icon={MdDesignServices}
           />

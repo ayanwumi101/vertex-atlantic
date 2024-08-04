@@ -13,8 +13,8 @@ const Contact = () => {
         <Box>
           <Flex alignItems='center' justifyContent='space-between' flexWrap='wrap'>
               <Box maxW='600px' mb={[5, 0]}>
-                <Text textAlign='justify'>
-                  Company’s Community Relations Statement  The company is a Nigerian entity which has a lot of respect for the rich but diverse multi-ethnic, religious, cultural / environmental setting and as such shall forge partnership by establishing good community relation initiative with relevant stakeholders in communities where its service is required. We will continue to respect and support community’s norms, value and ideologies to ensure a hitch free and smooth operation during project execution  The past individual’s experience, resource fullness and dedication of our personnel are our strength. This they have displayed over the last Thirty years on very highly complex project. Our future success no doubt depends on the knowledge and skills of our people and ability to positively respond to the ever increasing client needs.
+                <Text textAlign='justify' lineHeight='30px'>
+                Ready to bring your vision to life? Our team is here to help you every step of the way. Whether you have questions about our services or want to discuss your project in detail, we’d love to hear from you. Fill out our online contact form, and one of our representatives will get back to you promptly. Follow us on social media for the latest updates and inspiration. We are committed to providing exceptional service and look forward to partnering with you to create something extraordinary. Let’s make your dream project a reality together!
                 </Text>
               </Box>
               <Box w='500px' bg='gray.200' borderRadius='18px' minH='400px' py='8' px='8'>

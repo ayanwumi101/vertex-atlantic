@@ -22,14 +22,15 @@ const SingleHeroCard = ({title, description, image}: {image: string, description
                 display='flex'
                 alignItems='center'
                 justifyContent='center'
-                px={[2,0]}
+                px={[3,0]}
             >
                 <Box 
                     textAlign='center'
                     color='white'
+                    maxW='700px'
                 >
                     <Heading fontSize={[35,55]} mb='2'>{title}</Heading>
-                    <Text fontSize={25}>{description}</Text>
+                    <Text fontSize={[20,25]}>{description}</Text>
                 </Box>
             </Box>
         </Box>
@@ -66,8 +67,8 @@ const Hero = () => {
             </SwiperSlide>
             <SwiperSlide>
                 <SingleHeroCard 
-                      title='Your Productivity Begins Here'
-                      description='Rejoice Spaces'
+                      title='Comprehensive Project Management'
+                      description='From concept to completion, our project management consultancy ensures smooth and efficient execution of your projects.'
                       image='/assets/hero-image2.jpg'
                 />
             </SwiperSlide>
@@ -80,8 +81,8 @@ const Hero = () => {
             </SwiperSlide>
             <SwiperSlide>
                 <SingleHeroCard 
-                      title='Ready to Level up?'
-                      description='Build with vertex atlantic architects'
+                      title='Innovative Architecture'
+                      description='Our architectural designs blend creativity with functionality, providing innovative solutions tailored to your needs.'
                       image='/assets/hero-image4.jpg'
                 />
             </SwiperSlide>

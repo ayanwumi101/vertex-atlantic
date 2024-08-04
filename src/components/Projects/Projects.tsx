@@ -1,4 +1,4 @@
-import { Box, Heading, Image, useMediaQuery } from '@chakra-ui/react'
+import { Box, Heading, Image, useMediaQuery, Text } from '@chakra-ui/react'
 import { Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -8,7 +8,7 @@ import 'swiper/css/pagination';
 const SingleProjectCard = ({image}: {image: string}) => {
   return (
     <Box w='350px' h='430px' boxShadow='lg'>
-      <Image src={image} w='100%' h='100%' objectFit='cover' borderRadius='12px' boxShadow='xl' />
+      <Image src={image} w='100%' h='100%' objectFit='cover' borderRadius={[0,'12px']} boxShadow='xl' />
     </Box>
   )
 }
@@ -30,12 +30,18 @@ const Projects = () => {
         <Heading fontSize={[35,55]} textAlign='center'>Projects</Heading>
       </Box>
 
+      <Box w='90%' mb='7' mx='auto'>
+        <Text lineHeight='30px' textAlign='justify'>
+          At Vertex Atlantic Architects, we take pride in delivering exceptional projects across residential, commercial, and renovation sectors. Our portfolio reflects our commitment to quality and innovation, showcasing stunning residential homes, efficient commercial spaces, and transformative renovation projects. Each project is a testament to our meticulous attention to detail and our ability to bring our clients' visions to life. From beautiful interior designs to harmonious landscape creations, our work demonstrates our dedication to excellence and customer satisfaction. Explore our diverse range of projects and see how we turn ideas into reality.
+        </Text>
+      </Box>
+
       <Box as='section' w='95%' mx='auto'>
       <Swiper
             pagination={{ clickable: true }}
             modules={[Autoplay]}
             className="mySwiper"
-            slidesPerView={isMobile ? 1.2 : 3.5}
+            slidesPerView={isMobile ? 1.1 : 3.5}
             autoplay={{
                 delay: 4000,
                 disableOnInteraction: false,

@@ -11,11 +11,10 @@ import { useLayoutEffect, useEffect } from 'react'
 import { Events, scrollSpy } from 'react-scroll';
 
 function App() {
-  useLayoutEffect(() => {
+  useEffect(() => {
     (
       async () => {
         const LocomotiveScroll = (await import('locomotive-scroll')).default;
-         /* eslint-disable-next-line padded-blocks */
         const locomotiveScroll = new LocomotiveScroll();
       }
     )()

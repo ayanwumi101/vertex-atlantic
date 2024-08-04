@@ -4,7 +4,7 @@ const Fonts = () => (
     <Global
       styles={`
         @font-face {
-            font-family: 'space-grotesk';
+            font-family: 'space-grotesk sans-serif';
             font-style: normal;
             font-weight: normal;
             font-display: swap;
