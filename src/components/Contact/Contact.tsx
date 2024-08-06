@@ -38,7 +38,7 @@ const Contact = () => {
                   <Box>
                     <Heading fontSize={16} mb='1' fontWeight={600}>Opening Hours</Heading>
                     <Text fontSize={15} mb='1'>
-                      Monday - Friday
+                      Monday - Saturday
                     </Text>
                     <Text fontSize={15}>
                       8:00am - 5:00pm

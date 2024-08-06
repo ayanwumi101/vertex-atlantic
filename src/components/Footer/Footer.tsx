@@ -50,11 +50,65 @@ const Footer = () => {
             <Box w='350px' color='gray.200'>
               <Heading mb='2' fontSize={18}>Quick Links</Heading>
               <Stack spacing={2} color='gray.300'>
-                <Text>Home</Text>
-                <Text>About Us</Text>
-                <Text>Services</Text>
-                <Text>Projects</Text>
-                <Text>Contact</Text>
+                <Link
+                  activeClass="active"
+                  to="home"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                >
+                  <a href='#'>Home</a>
+                </Link>
+                <Link
+                  activeClass="active"
+                  to="about"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                >
+                  <a href='#'>About Us</a>
+                </Link>
+                <Link
+                  activeClass="active"
+                  to="clients"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                >
+                  <a href='#'>Our Clients</a>
+                </Link>
+                <Link
+                  activeClass="active"
+                  to="services"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                >
+                  <a href='#'>Services</a>
+                </Link>
+                <Link
+                  activeClass="active"
+                  to="projects"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                >
+                  <a href='#'>Projects</a>
+                </Link>
+                <Link
+                  activeClass="active"
+                  to="contact"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                >
+                  <a href='#'>Contact</a>
+                </Link>
               </Stack>
             </Box>
         </Flex>

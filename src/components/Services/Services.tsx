@@ -43,25 +43,25 @@ const Services = () => {
           <ServiceCard  
             title='Landscape design'
             description="Creating functional and aesthetically pleasing outdoor spaces that enhance your property's value."
-            image='/assets/service1.jpg'
+            image='/assets/landscape.jpeg'
             icon={MdConstruction}
           />
           <ServiceCard  
             title='Real Estate & Residential development'
             description="Development services for residential and real estate projects, delivering innovative and sustainable solutions."
-            image='/assets/service2.jpg'
+            image='/assets/real-estate.jpeg'
             icon={MdRealEstateAgent}
           />
           <ServiceCard  
             title='Physical planning'
             description='Strategic planning to optimize land use and development, ensuring orderly and sustainable growth.'
-            image='/assets/service10.jpg'
+            image='/assets/physical-planning.jpeg'
             icon={LuConstruction}
           />
           <ServiceCard  
             title='Architectural Design'
             description='Innovative architectural solutions tailored to your specific needs and preferences.'
-            image='/assets/service5.jpg'
+            image='/assets/architecture.jpg'
             icon={MdArchitecture}
           />
           <ServiceCard  
