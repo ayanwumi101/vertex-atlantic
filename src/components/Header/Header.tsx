@@ -26,7 +26,7 @@ const Header = () => {
                                 offset={50}
                                 duration={500}
                             >
-                                <Box as='a'>About Us</Box>
+                                <Box as='a' cursor='pointer'>About Us</Box>
                             </Link>
                             <Link
                                 activeClass="active"
@@ -36,7 +36,7 @@ const Header = () => {
                                 offset={50}
                                 duration={500} 
                             >
-                                <Box>Our Clients</Box>
+                                <Box as='a' cursor='pointer'>Our Clients</Box>
                             </Link>
                             <Link
                                 activeClass="active"
@@ -46,7 +46,7 @@ const Header = () => {
                                 offset={50}
                                 duration={500} 
                             >
-                                <Box>Services</Box>
+                                <Box cursor='pointer'>Services</Box>
                             </Link>
                             <Link
                             activeClass="active"
