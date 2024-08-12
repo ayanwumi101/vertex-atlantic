@@ -27,51 +27,51 @@ const About = () => {
               satisfaction. We are flexible and responsive to the unique needs
               of each client, tailoring our approach as required.
             </Text>
+            <Text fontWeight={600} fontSize={20}>Our specific services include:</Text>
             <List spacing={2}>
-              Our specific services include:
               <ListItem>
-                <ListIcon as={MdCheckCircle} color="blue.400" />
+                <ListIcon fontSize={20} as={MdCheckCircle} color="blue.400" />
                 Construction Project Management
               </ListItem>
               <ListItem>
-                <ListIcon as={MdCheckCircle} color="blue.400" />
+                <ListIcon fontSize={20} as={MdCheckCircle} color="blue.400" />
                 Architectural Consultancy
               </ListItem>
               <ListItem>
-                <ListIcon as={MdCheckCircle} color="blue.400" />
+                <ListIcon fontSize={20} as={MdCheckCircle} color="blue.400" />
                 Preparation of Feasibility Studies
               </ListItem>
               <ListItem>
-                <ListIcon as={MdCheckCircle} color="blue.400" />
+                <ListIcon fontSize={20} as={MdCheckCircle} color="blue.400" />
                 Preparation of Pre-Contract Designs and Drawings
               </ListItem>
               <ListItem>
-                <ListIcon as={MdCheckCircle} color="blue.400" />
+                <ListIcon fontSize={20} as={MdCheckCircle} color="blue.400" />
                 Contract Administration
               </ListItem>
               <ListItem>
-                <ListIcon as={MdCheckCircle} color="blue.400" />
+                <ListIcon fontSize={20} as={MdCheckCircle} color="blue.400" />
                 Supervision, and Cost Control
               </ListItem>
               <ListItem>
-                <ListIcon as={MdCheckCircle} color="blue.400" />
+                <ListIcon fontSize={20} as={MdCheckCircle} color="blue.400" />
                 Landscape Design
               </ListItem>
               <ListItem>
-                <ListIcon as={MdCheckCircle} color="blue.400" />
+                <ListIcon fontSize={20} as={MdCheckCircle} color="blue.400" />
                 Interior Design
               </ListItem>
               <ListItem>
-                <ListIcon as={MdCheckCircle} color="blue.400" />
+                <ListIcon fontSize={20} as={MdCheckCircle} color="blue.400" />
                 Rehabilitation/Modification of Facilities
               </ListItem>
               <ListItem>
-                <ListIcon as={MdCheckCircle} color="blue.400" />
+                <ListIcon fontSize={20} as={MdCheckCircle} color="blue.400" />
                 Real Estate & Residential Development
               </ListItem>
               <ListItem>
-                <ListIcon as={MdCheckCircle} color="blue.400" />
-                 Physical Planning and Industrial Facilities
+                <ListIcon fontSize={20} as={MdCheckCircle} color="blue.400" />
+                Physical Planning and Industrial Facilities
               </ListItem>
             </List>
           </Stack>
