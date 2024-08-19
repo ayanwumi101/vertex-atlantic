@@ -115,7 +115,7 @@ const Footer = () => {
       </Box>
     </Box>
     <Box color='gray.300' bg='blue.900' textAlign='center' fontSize={14} py='5'>
-      <Text>Copyright &copy; {new Date().getFullYear()} Vertex Atlantic Arcitects. All rights reserved</Text>
+      <Text>Copyright &copy; 2023 Vertex Atlantic Arcitects. All rights reserved</Text>
     </Box>
     </Box>
   )
